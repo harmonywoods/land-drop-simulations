@@ -13,10 +13,7 @@ MULLIGAN RULE:
 '''
 Modified version of a script publicly available on Karsten's github - https://github.com/frankkarsten/MTG-Math/blob/master/NumberLandsProbCalc.py
 
-Outputs to the terminal the following data (in CSV format, for each combination of deck size, number of lands, and turn number specified
-deck size, number of lands, turn number, P(success|play), P(success|draw), P(success), expected hand size, chance of keeping a 4-card hand, chance of keeping a 5 card hand, chance of keeping a 6 card hand, chance of keeping a 7 card hand
-
-where success is hitting your land drops up to and including the turn number in column 2
+Outputs to the terminal the probability of 'flood' for various land counts.
 
 '''
 import random
