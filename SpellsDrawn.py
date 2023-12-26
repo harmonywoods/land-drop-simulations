@@ -22,7 +22,7 @@ where success is hitting your land drops up to and including the turn number in 
 import random
 import collections 
 flood_turns = 7 #how many turns to observe flood (on the draw)
-flood_spells = 5 #less than this num of spells and it's considered flooding
+flood_spells = 6 #less than this num of spells and it's considered flooding
 print(flood_turns)
 print(flood_spells)
 def run_one_sim(decklist):	
